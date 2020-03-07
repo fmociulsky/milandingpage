@@ -1,0 +1,22 @@
+body {
+  background-color: lightgrey;
+  font-family: "Arial"; }
+  body nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none; }
+    body nav ul li a {
+      text-decoration: none; }
+  body section {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px; }
+    body section .texto {
+      text-align: center; }
+      body section .texto img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px; }
+
+/*# sourceMappingURL=style.css.map */

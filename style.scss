@@ -1,0 +1,41 @@
+$fuente-pricipal:'Arial';
+
+body{
+    background-color: lightgrey;
+    font-family: $fuente-pricipal;
+    nav{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            li{
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    section{
+        border: 1px solid black;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        h1{
+
+        }
+        h2{
+
+        }
+        .texto{
+            text-align: center;
+            img {
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .titulo-seccion{
+
+        }
+    }
+}
